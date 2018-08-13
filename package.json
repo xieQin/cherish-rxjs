@@ -1,0 +1,28 @@
+{
+  "name": "cherish-rxjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d build/src -s inline",
+    "babelWatch":"babel src/**/*.js -d build -w -s inline",
+    "releaseBuild":"babel lib -d release --no-comments --compact true --minified"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xieQin/cherish-rxjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xieQin/cherish-rxjs/issues"
+  },
+  "homepage": "https://github.com/xieQin/cherish-rxjs#readme",
+  "dependencies": {
+    "rxjs": "^6.2.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
